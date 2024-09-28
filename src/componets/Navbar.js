@@ -15,21 +15,17 @@ const Navbar = () => {
         transition={{delay:0.3, y:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
        }}
         
-        className=" flex ml-5   mx-auto px-4 
+        className=" flex text-2xl
       
         
         " >
-           <h1 className="w-full  text-[#E6E6EA] text-4xl font-bold md:pl-50 my-2 mr-45  "> Ativos
+           <h1 className="w-full text-center mx-auto text-[#E6E6EA] font-bold my-5 "> Ativos
             
-            <span className="w-full  text-[#36D97D]  text-4xl font-medium 
+            <span className="w-full text-center mx-auto text-[#36D97D]  font-medium 
               "> Digitais</span>
              </h1>
 
-             <div className=" text-[#E6E6EA] flex text-3xl mr-5 md:flex my-2 ml-[-90px]">
-                <img className="
-                 transition duration-300 hover:scale-75 size-[70px] ml-5"    src={ativos} alt="ativos" />
-           
-             </div>
+             
            
         </motion.div>
     )
