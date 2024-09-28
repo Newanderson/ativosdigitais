@@ -23,7 +23,7 @@ const Secao2 = () => {
                      transition={{delay:0.2, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1}}
                     
 
-                    className='font-bold text-[#36D97D] pt-5'>Experiência do cliente pode levar a um aumento significativo </motion.p>
+                    className='font-bold text-[#36D97D] '>Experiência do cliente pode levar a um aumento significativo </motion.p>
                      
                     
 
@@ -33,7 +33,7 @@ const Secao2 = () => {
                     initial={{ x:-100, opacity:0}}
                     whileInView={{ x:0, opacity:1 }}
                     transition={{delay:0.2, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1}}
-                    className='pt-3'>O Antes de qualquer estratégia, é crucial entender quem são seus clientes. Realize pesquisas e colete dados demográficos, comportamentais e psicográficos. Crie personas detalhadas que representem seus clientes ideais.
+                    className=''>O Antes de qualquer estratégia, é crucial entender quem são seus clientes. Realize pesquisas e colete dados demográficos, comportamentais e psicográficos. Crie personas detalhadas que representem seus clientes ideais.
                     Escalar um negócio com marketing de crescimento é um processo contínuo que combina análise, criatividade e adaptação. Ao focar na experiência do cliente, testar novas abordagens e aprender com os dados, você pode impulsionar o crescimento de sua empresa de forma eficaz e sustentável. </motion.p>
 
                   

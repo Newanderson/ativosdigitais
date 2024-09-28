@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Home = () => {
     return(
         <div className="text-[#E6E6EA] ">
-            <div className=" max-w-[800px] mt-[-10px] w-full h-screen mx-auto text-center flex flex-col justify-center  pd-80px  ">
+            <div className=" max-w-[800px] mt-10 w-full h-screen mx-auto text-center flex flex-col justify-center  pd-80px  ">
             <motion.p 
                  initial={{ y:-100, opacity:0}}
                  animate={{ y:0, opacity:1 }}
@@ -23,11 +23,11 @@ const Home = () => {
              animate={{ y:0, opacity:1 }}
              transition={{delay:0.3, y:{type:"spring", stiffness:30},opacity:{duration:0.6}, ease:"eseaIn", duration:1
             }}
-            className="md:text-2xl sm:text-lg text-xl  p-3 text-gray-400 "> Explorando o potencial do digitail para conquistar resultados</motion.p>
+            className="md:text-2xl sm:text-lg text-xl   text-gray-400 "> Explorando o potencial do digitail para conquistar resultados</motion.p>
 
             <motion.button 
               
-            className="bg-[#36d97d] w-[200px] rounded-md font-medium md:pt-[-40px] my-5 p-3 mx-auto  text-[#273A73]   transition duration-300 hover:skew-y-2 hover:text-[#36d97d] 
+            className="bg-[#36d97d] w-[200px] rounded-md font-medium my-5 p-3 mx-auto  text-[#273A73]   transition duration-300 hover:skew-y-2 hover:text-[#36d97d] 
              hover:bg-[#E6E6EA] ">Potencializar</motion.button>
             </div>
           

@@ -31,7 +31,7 @@ const Secao = () => {
                      transition={{delay:0.3, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
                     }}
                     
-                    className='font-bold text-[#36D97D] pt-5'>  Fique atento às novas tendências e tecnologias, e esteja disposto a adaptar suas estratégias conforme necessário. </motion.p>
+                    className='font-bold text-[#36D97D] '>  Fique atento às novas tendências e tecnologias, e esteja disposto a adaptar suas estratégias conforme necessário. </motion.p>
 
                     <motion.p 
                     
@@ -40,7 +40,7 @@ const Secao = () => {
                     transition={{delay:0.3, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
                    }}
 
-                    className='pt-3'>No cenário competitivo atual, escalar um negócio requer mais do que boas ideias; é essencial ter uma estratégia sólida de marketing de crescimento. O marketing de crescimento, ou growth marketing, foca em experimentação contínua e em dados para impulsionar o crescimento de forma sustentável. </motion.p>
+                    className=''>No cenário competitivo atual, escalar um negócio requer mais do que boas ideias; é essencial ter uma estratégia sólida de marketing de crescimento. O marketing de crescimento, ou growth marketing, foca em experimentação contínua e em dados para impulsionar o crescimento de forma sustentável. </motion.p>
                  
                     <button 
                      
