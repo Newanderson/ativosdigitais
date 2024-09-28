@@ -17,7 +17,7 @@ const Redes = () => {
        }}
         
 
-        className="text-center sm:text-3xl text-3xl p-5 text-[#E6E6EA]">
+        className="text-center sm:text-3xl text-4xl p-8 pb-2 text-[#E6E6EA]">
         
             
 

@@ -6,14 +6,18 @@ import { motion } from 'framer-motion'
 
 const Cards = () => {
     return(
-        <div className=" w-full bg-[#273A73] px-4 my-28 cursor-pointer ">
 
-            <motion.div 
-             initial={{ y:-100, opacity:0}}
-             whileInView={{ y:0, opacity:1 }}
-             transition={{delay:0.3, y:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
-            }}
-            className='flex justify-center center m-10 text-center text-3xl font-bold text-[#36D97D]    '>Acelere seus resultados</motion.div>
+        
+        <div className=" w-full bg-[#273A73] px-4 my-2 cursor-pointer xl:my-5  sm:my-5">
+
+            <div>
+                <h1 className='text-[#E6E6EA] center text-center text-3xl sm:text-3xl md:text-3xl  font-bold m-10'>
+                 Acelere seus resultados
+                </h1>
+            
+            </div>
+
+            
 
          <div className="max-w-[1200px] mx-auto grid md:grid-cols-3 gap-8  ">
          <motion.div

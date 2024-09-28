@@ -15,19 +15,19 @@ const Navbar = () => {
         transition={{delay:0.3, y:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
        }}
         
-        className=" flex  justify-between  h-24 max-w-[1240px] mx-auto px-4 pb-15px
+        className=" flex ml-5   mx-auto px-4 
       
         
         " >
-           <h1 className="w-full  text-[#E6E6EA] text-4xl font-bold md:pl-50 my-10 "> Ativos
+           <h1 className="w-full  text-[#E6E6EA] text-4xl font-bold md:pl-50 my-2 "> Ativos
             
             <span className="w-full  text-[#36D97D]  text-4xl font-medium 
               "> Digitais</span>
              </h1>
 
-             <div className=" text-[#E6E6EA] flex text-3xl md:flex my-10">
+             <div className=" text-[#E6E6EA] flex text-3xl mr-5 md:flex my-2 ml-[-90px]">
                 <img className="
-                 transition duration-300 hover:scale-75 size-12 ml-10"    src={ativos} alt="ativos" />
+                 transition duration-300 hover:scale-75 size-[70px] ml-5"    src={ativos} alt="ativos" />
            
              </div>
            
