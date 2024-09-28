@@ -1,5 +1,5 @@
 import React from "react";
-import ativos from '../img/ativos.png'
+
 import {motion} from 'framer-motion'
 
 //icons
