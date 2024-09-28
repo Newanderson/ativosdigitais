@@ -15,10 +15,7 @@ const Navbar = () => {
         transition={{delay:0.3, y:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
        }}
         
-        className=" flex text-2xl
-      
-        
-        " >
+        className=" flex text-center text-2xl" >
            <h1 className="w-full text-center mx-auto text-[#E6E6EA] font-bold my-5 "> Ativos
             
             <span className="w-full text-center mx-auto text-[#36D97D]  font-medium 
