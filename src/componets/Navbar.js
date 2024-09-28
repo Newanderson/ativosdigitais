@@ -19,7 +19,7 @@ const Navbar = () => {
       
         
         " >
-           <h1 className="w-full  text-[#E6E6EA] text-4xl font-bold md:pl-50 my-2 "> Ativos
+           <h1 className="w-full  text-[#E6E6EA] text-4xl font-bold md:pl-50 my-2 mr-45  "> Ativos
             
             <span className="w-full  text-[#36D97D]  text-4xl font-medium 
               "> Digitais</span>
