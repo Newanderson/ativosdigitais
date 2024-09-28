@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Cards = () => {
     return(
-        <div className=" :w-full bg-[#273A73] px-4 my-28 ursor-pointer ">
+        <div className=" w-full bg-[#273A73] px-4 my-28 cursor-pointer ">
 
             <motion.div 
              initial={{ y:-100, opacity:0}}
@@ -29,7 +29,7 @@ const Cards = () => {
 
             <h2 className="text-2xl font-bold text-[#36D97D] text-center ">E-commerce</h2>
 
-            <p className='xl:w-[300px] text-center mx-auto  pt-5 text-[#E6E6EA] sm:w-[180px] 
+            <p className='xl:w-[300px] text-center mx-auto  pt-5 text-[#E6E6EA] md:w-[150px] sm:w-[180px] 
             
             '>Trabalhamos para o crescimento do seu e-commerce, oferecendo soluções personalizadas e estratégias que maximizam o seu potencial de vendas online. Com nossa expertise, ajudamos a fortalecer sua presença digital, aumentar o tráfego qualificado e impulsionar conversões, garantindo que sua loja virtual alcance novos patamares de sucesso.</p>
 
@@ -46,7 +46,7 @@ const Cards = () => {
 
             <h2 className="text-2xl font-bold text-[#36D97D] text-center ">Treinamento</h2>
 
-            <p className='xl:w-[300px] text-center mx-auto  pt-5 text-[#E6E6EA] sm:w-[180px] '>Vamos explorar as habilidades e técnicas essenciais para se destacar em vendas, construir relacionamentos duradouros e alcançar resultados excepcionais. Vender não é apenas sobre fechar negócios; trata-se de entender as necessidades do cliente e oferecer soluções que realmente agreguem valor.</p>
+            <p className='xl:w-[300px] text-center mx-auto  pt-5 text-[#E6E6EA] md:w-[150px] sm:w-[180px] '>Vamos explorar as habilidades e técnicas essenciais para se destacar em vendas, construir relacionamentos duradouros e alcançar resultados excepcionais. Vender não é apenas sobre fechar negócios; trata-se de entender as necessidades do cliente e oferecer soluções que realmente agreguem valor.</p>
             
             </motion.div>
 
@@ -56,12 +56,12 @@ const Cards = () => {
             transition={{delay:0.3, y:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
            }}
             
-            className="w-full flex flex-col border rounded-lg p-8 ursor-pointer">
+            className=" flex flex-col border rounded-lg p-8 ">
             <img className='w-[120px]  mt-15 bg-[#273A73] mx-auto' src={local} alt="/" />
 
             <h2 className="text-2xl font-bold text-[#36D97D] text-center ">Neg. local </h2>
 
-            <p className='xl:w-[300px] text-center mx-auto  pt-5  text-[#E6E6EA] sm:w-[180px] '>Analisamos o seu mercado e criamos campanhas adaptadas às necessidades específicas do seu negócio, garantindo que você se destaque da concorrência,utilizamos as melhores práticas de SEO, redes sociais e anúncios online para aumentar sua visibilidade e atrair mais clientes para sua loja.</p>
+            <p className='xl:w-[300px] text-center mx-auto  pt-5  text-[#E6E6EA] md:w-[150px] sm:w-[180px] '>Analisamos o seu mercado e criamos campanhas adaptadas às necessidades específicas do seu negócio, garantindo que você se destaque da concorrência,utilizamos as melhores práticas de SEO, redes sociais e anúncios online para aumentar sua visibilidade e atrair mais clientes para sua loja.</p>
             
             </motion.div>
             

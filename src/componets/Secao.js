@@ -5,15 +5,16 @@ import { motion } from 'framer-motion';
 
 const Secao = () => {
     return(
-        <div className="w-full bg-[#E6E6EA] py-16 px-4 text-[#273A73] ">
-            <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+        <div className="w-full bg-[#E6E6EA] py-16 px-4 text-[#273A73]  ">
+            <div className="max-w-[1140px] mx-auto grid md:grid-cols-2">
                 <motion.img 
  
                  initial={{ x:-100, opacity:0}}
                  whileInView={{ x:0, opacity:1 }}
                  transition={{delay:0.2, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1}}
                  
-                 className='w-[500px] mx-auto my-5 ' src={montanha} alt='/'/>
+                 className='w-[500px] mx-auto my-5 
+                 md:200px' src={montanha} alt='/'/>
 
                 <div className=' flex flex-col justify-center m-8'>
                     <motion.h1 

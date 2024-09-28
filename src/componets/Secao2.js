@@ -23,11 +23,11 @@ const Secao2 = () => {
                      transition={{delay:0.2, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1}}
                     
 
-                    className='font-bold text-[#36D97D] pt-5'>Experiência do cliente pode levar a um aumento significativo </motion.p
+                    className='font-bold text-[#36D97D] pt-5'>Experiência do cliente pode levar a um aumento significativo </motion.p>
                      
                     
 
-                    >
+                    
 
                     <motion.p 
                     initial={{ x:-100, opacity:0}}
@@ -39,13 +39,16 @@ const Secao2 = () => {
                   
 
                 </div>
+                
                 <motion.img
                 initial={{ x:100, opacity:0}}
                 whileInView={{ x:0, opacity:1 }}
                 transition={{delay:0.3, x:{type:"spring", stiffness:60},opacity:{duration:1}, ease:"eseaIn", duration:1
                }}
 
-                className='w-[800px] mx-auto my-5 ' src={ilustra} alt='/'/>
+                className='w-[800px] mx-auto my-5
+                justify-center center
+                md:200px ' src={ilustra} alt='/' />
 
                 
 

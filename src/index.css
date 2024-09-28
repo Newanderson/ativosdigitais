@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body{
+ 
   background-color:#273A73;
+  overflow-x: hidden;
+  
+  
 }
+
